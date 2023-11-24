@@ -8,4 +8,7 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     // log the result to the console
     console.log('Sum:', sum);
+
+    // show results
+    document.getElementById('result').textContent = 'Interest Amount: ' + sum;
 });
